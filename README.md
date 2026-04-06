@@ -6,10 +6,7 @@
 
 ## Installation
 
-Clone the repository:
-git clone https://github.com/requeste/habit-tracker.git
-cd habit-tracker
-pip install -e .
+pip install habit-tr
 
 ## Usage
 
