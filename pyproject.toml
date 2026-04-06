@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "habit-tracker"
+version = "0.1.0"
+description = "Tracker for real developers"
+requires-python = ">=3.10"
+dependencies = [
+    "typer",
+    "plyer",
+    "schedule",
+    "rich"
+]
+
+[project.scripts]
+habit = "habit_tracker.cli:app"
+
+[tool.hatch.build.targets.wheel]
+packages = ["habit_tracker"]
