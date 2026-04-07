@@ -11,10 +11,15 @@ pip install habit-tr
 ## Usage
 
 – habit add "кодить"    # добавить привычку
+
 – habit show            # показать все привычки
+
 – habit done "кодить"   # отметить выполненной
+
 – habit delete "кодить" # удалить привычку
+
 – habit info            # информация о проекте
+
 
 ## Requirements
 
