@@ -8,7 +8,7 @@
 
 pip install habit-tr
 
-## Usage
+## Usage 
 
 – habit add "кодить"    # добавить привычку
 
